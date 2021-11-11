@@ -1,9 +1,3 @@
-const fetch = require("node-fetch");
+const add = require("math");
 
-const asyncFunction = async () => {
-  const data = await fetch("https://jsonplaceholder.typicode.com/todos/1");
-  console.log(data);
-};
-
-asyncFunction();
-
+console.log(add(1, 4));
